@@ -1,0 +1,158 @@
+body {
+	background: #ffffff;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.header {
+	position: fixed;
+	left: 0;
+	height: 70px;
+	width: 100%;
+	background-color: #808080;
+}
+
+#intro {
+	position: fixed;
+	left: 100px;
+	padding: 0px;
+	height: 60px;
+	width: 400px;
+	font-family: distro;
+	font-size: 25px;
+	color: #ffffff;
+	line-height: 0px;
+}
+
+#option {
+	position: fixed;
+	left: 800px;
+	height: 60px;
+	width: 500px;
+}
+
+#option ul {
+	margin: 12px;
+	padding: 0px;
+	display: flex;
+}
+
+#option ul li {
+	padding: 10px 25px;
+	border: none;
+	border-radius: 15px;
+	text-decoration: none;
+	display: block;
+	margin: 7px;
+	list-style: none;
+}
+
+#option ul li a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#option ul li a:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+ 
+#option ul li a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#option ul li a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.middle {
+	position:fixed;
+	left: 0;
+	top: 80px;
+	height: 545px;
+	width: 1249px;
+}
+
+.container {
+	margin:0 auto;
+	margin-top: 20px;
+	position: relative;
+	width: 70%;
+	height: 0;
+	padding-bottom: 40%;
+	background: #4c4c4c;
+	border: solid 10px #2c2c2c;
+}
+
+.slide_img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.slide_img img {
+	width: 100%;
+	height: 100%;
+}
+
+#i1, #i2, #i3 {
+	display: none;
+}
+
+.pre, .nxt {
+	width: 12%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: rgba(88,88,88,0.4);
+	z-index: 99;
+	cursor: pointer;
+} 
+
+.pre {
+	left: 0;
+}
+
+.nxt {
+	right: 0;
+}
+
+.nav {
+	width: 100%;
+	height: 11px;
+	bottom: 12%;
+	position: absolute;
+	text-align: center;
+	z-index: 99;
+}
+
+.dots {
+	top: -5px;
+	width: 18px;
+	height: 18px;
+	margin: 0 4px;
+	position: relative;
+	border-radius: 50%;
+	display: inline-block;
+	background: rgba(0,0,0,0.6);
+}
+
+.slide_img {
+	z-index: -1;
+}
+
+#i1:checked ~ #one,
+#i2:checked ~ #two,
+#i3:checked ~ #three{
+	z-index: 9;
+}
+
+#i1:checked ~ .nav #dot1,
+#i2:checked ~ .nav #dot2,
+#i3:checked ~ .nav #dot3{
+	background: #fff;
+}

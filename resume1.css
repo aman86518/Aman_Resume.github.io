@@ -1,0 +1,256 @@
+body {
+	background: #ffffff;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.header {
+	position: fixed;
+	left: 0;
+	height: 70px;
+	width: 100%;
+	background-color: #808080;
+}
+
+#intro {
+	position: fixed;
+	left: 100px;
+	padding: 0px;
+	height: 60px;
+	width: 400px;
+	font-family: distro;
+	font-size: 25px;
+	color: #ffffff;
+	line-height: 0px;
+}
+
+#option {
+	position: fixed;
+	left: 700px;
+	height: 60px;
+	width: 600px;
+	border: none;
+}
+
+#option ul {
+	margin: 12px;
+	padding: 10px;
+	display: flex;
+}
+
+#option ul li {
+	padding: 10px 25px;
+	border: none;
+	border-radius: 15px;
+	text-decoration: none;
+	display: block;
+	margin: 0px;
+	list-style: none;
+}
+
+#option ul li a:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#option ul li a:active {
+	color: #ffffff;
+	text-decoration: none;
+}
+ 
+#option ul li a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#option ul li a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.middle {
+	position:fixed;
+	left: 50px;
+	top: 80px;
+	height: 490px;
+	width: 1249px;
+}
+
+.objective {
+	position:fixed;
+	left: 100px;
+	top: 90px;
+	height: 475px;
+	width: 650px;
+	border-right: 1px solid #808080;
+}
+
+#objective1 h1 {
+	font-family:distro;
+	line-height: 0px;
+	color: #333;
+	text-decoration: underline;
+}
+
+#objective1 p {
+	font-family: distro;
+	color: #333;
+	width: 600px;
+}
+
+.skill {
+	position:fixed;
+	left: 800px;
+	top: 90px;
+	height: 350px;
+	width: 450px;
+}
+
+.skill h1 {
+	font-family: distro;
+	line-height: 0px;
+	color: #333;
+	text-decoration: underline;
+}
+
+.skillbox {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 5px 0;
+}
+
+.skillbox p {
+	color: #333;
+	text-transform: uppercase;
+	margin: 0 0 10px;
+	padding: 0;
+	font-family: distro;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.skillbox p:nth-child(2){
+	float: right;
+	position: relative;
+	top: -25px;
+}
+
+.skill1 {
+	background: #ffffff;
+	padding: 1px;
+	box-sizing: border-box;
+	border: 1px solid #333;
+	border-radius: 2px;
+}
+
+.skill_level {
+	background: #808080;
+	width: 100%;
+	height: 6px;
+}
+
+.personal {
+	position:fixed;
+	left: 100px;
+	top: 250px;
+	height: 240px;
+	width: 642px;
+	border-top: 1px solid #808080;
+}
+
+.personal h1 {
+	padding: 0px;
+	margin: 5px;
+	font-family: distro;
+	text-decoration: underline;
+	color: #333;
+}
+
+table {
+	margin: 0px;
+	padding: 0px;
+	font-family: distro;
+}
+
+.hobby {
+	position:fixed;
+	left: 100px;
+	top: 450px;
+	height: 240px;
+	width: 642px;
+	border-top: 1px solid #808080;
+}
+
+.hobby h1 {
+	padding: 0px;
+	margin: 5px;
+	font-family: distro;
+	text-decoration: underline;
+	color: #333;
+}
+
+.education {
+	position:fixed;
+	left: 800px;
+	top: 350px;
+	height: 240px;
+	width: 490px;
+	border-top: 1px solid #808080;
+}
+
+.education h1 {
+	padding: 0px;
+	margin: 5px;
+	font-family: distro;
+	text-decoration: underline;
+	color: #333;
+}
+
+.education table {
+	margin: 0px;
+	padding: 0px;
+	line-height: 0px;
+}
+
+.education table ul {
+	margin: 12px;
+	padding: 0px;
+	display: flex;
+}
+
+.education table ul li {
+	padding: 0px 15px;
+	display: block;
+	margin: 2px;
+}
+
+.footer {
+	position: fixed;
+	top: 570px;
+	left: 0;
+	height: 50px;
+	width: 100%;
+	background-color: #808080;
+}
+
+#copyright1 {
+	height: 30px;
+	width: 30px;
+	top: 578px;
+	left: 600px;
+	float:left;
+}
+
+#copyright2 {
+	height: 40px;
+	width: 160px;
+	font-family: distro;
+	color: #ffffff;
+	top: 584px;
+	left: 645px;
+	float:left;
+	text-align: center;
+	background: transparent;
+}
